@@ -1,0 +1,38 @@
+body{
+    padding: 70px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 20px;
+
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.square:not(:first-child){
+    margin-left: 75px;
+}
+
+#square-1{
+    background-color:#FF0000;
+}
+
+#square-2{
+    background-color:#00FF00;
+}
+
+#square-3{
+    background-color:#0000FF;
+}
+
+#square-4{
+    background-color:#FFFF00;
+}
